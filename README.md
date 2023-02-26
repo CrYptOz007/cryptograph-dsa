@@ -73,18 +73,18 @@ java cryptoGraph -r asset asset_info.csv -pg 5 -q 10
 Show 10 rows of assets on page 5
 
 ## Files
-`cryptoGraph.java` – Main program file that contains the Main method for running the menu and other functions with set arguments
-`DSALinkedList.java` – Modified Doubly-ended linked list. This is the main data type for most of the classes in the program
-`DSAGraph.java` – Similar implementation of an Adjacency list with linked list. This is used for analysing trade paths between two assets
-`DSAStack.java` – Implementation of Java Stack and uses Linked List. This is used for the asset filter and for comparing common assets of two indirect assets
-`ContainerClass.java` – Java Serialization driver code to save and load serialized data
-`TradePairs.java` – Simple class that holds the data of all trades associated to a specific trade pair 
-`TradeTransactions.java` – Simple class that holds all the different transactions of cryptocurrency
-`Asset.java` – Simple class that holds information about a particular asset
-`FileIO.java` – File importing and processing of an asset file as well as a JSON http GET API call
-`UnitDSAGraphTest.java` – Test file for DSAGraph.java
-`UnitDSALinkedListTest.java` – Test file for DSALinkedListTest.java
-`UnitFileIOTest.java` – Test file for FileIO.java
-`asset_info.csv` – Asset file extracted from coinmarketcap API
-`exchangeInfo.json` – Json file extracted from binance API
-`org/json/*` - JSON Package from www.github.com/stleary/JSON-java
+`cryptoGraph.java` – Main program file that contains the Main method for running the menu and other functions with set arguments\
+`DSALinkedList.java` – Modified Doubly-ended linked list. This is the main data type for most of the classes in the program\
+`DSAGraph.java` – Similar implementation of an Adjacency list with linked list. This is used for analysing trade paths between two assets\
+`DSAStack.java` – Implementation of Java Stack and uses Linked List. This is used for the asset filter and for comparing common assets of two indirect assets\
+`ContainerClass.java` – Java Serialization driver code to save and load serialized data\
+`TradePairs.java` – Simple class that holds the data of all trades associated to a specific trade pair\
+`TradeTransactions.java` – Simple class that holds all the different transactions of cryptocurrency\
+`Asset.java` – Simple class that holds information about a particular asset\
+`FileIO.java` – File importing and processing of an asset file as well as a JSON http GET API call\
+`UnitDSAGraphTest.java` – Test file for DSAGraph.java\
+`UnitDSALinkedListTest.java` – Test file for DSALinkedListTest.java\
+`UnitFileIOTest.java` – Test file for FileIO.java\
+`asset_info.csv` – Asset file extracted from coinmarketcap API\
+`exchangeInfo.json` – Json file extracted from binance API\
+`org/json/*` - JSON Package from www.github.com/stleary/JSON-java\
