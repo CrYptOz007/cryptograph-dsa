@@ -69,7 +69,7 @@ Advanced Report Mode
 Example
 ```bash
 java cryptoGraph -r asset asset_info.csv -pg 5 -q 10
-```bash
+```
 Show 10 rows of assets on page 5
 
 ## Files
